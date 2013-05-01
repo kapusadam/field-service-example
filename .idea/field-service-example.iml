@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="CFPropertyList (v2.2.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="awesome_print (v1.1.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.5, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="calabash-android (v0.4.3, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="calabash-cucumber (v0.9.145.pre1, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coderay (v1.0.8, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cucumber (v1.3.1, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.4, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="geocoder (v1.1.8, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="gherkin (v2.12.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="httpclient (v2.3.2, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.7.7, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="location-one (v0.0.9, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="method_source (v0.8.1, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.2, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry (v0.9.10, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-protection (v1.5.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="retriable (v1.3.3, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec (v2.13.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v2.13.1, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.13.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v2.13.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v0.9.9, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="run_loop (v0.0.9, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sim_launcher (v0.4.6, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.4.2, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="slop (v3.3.3, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="slowhandcuke (v0.0.3, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thor (v0.18.1, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.7, rbenv: 1.9.3-p327) [gem]" level="application" />
+  </component>
+</module>
+
