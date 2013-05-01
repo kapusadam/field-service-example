@@ -1,10 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="FieldService.iOS/Controllers/SignatureController.cs" Line="19" Column="7" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="FieldService.iOS" selected="True" />
+          <Node name="FieldService.iOS" expanded="True">
+            <Node name="References" expanded="True" selected="True" />
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="Controllers" expanded="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">
