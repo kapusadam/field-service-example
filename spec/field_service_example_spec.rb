@@ -31,7 +31,9 @@ describe 'Field Service Example' do
       @launcher.stop
     end
 
-    it 'should support running calabash tests with rspec' do
+    it 'should not crash when I login' do
+
+
       enter('nat@xamarin.com', :mark => 'Username')
       enter('xamurai', :mark => 'Password')
       screenshot_embed(:label => 'Login', :name =>'Login')

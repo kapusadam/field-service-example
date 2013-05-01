@@ -12,6 +12,10 @@ Before do |scenario|
 
 
 
+  unless app_installed?('FieldService.Android')
+    puts "Initial app and test-server install"
+    reinstall_apps
+  end
 
 =begin
   log "New scenario - reinstalling apps"
@@ -19,6 +23,8 @@ Before do |scenario|
   install_app(ENV["TEST_APP_PATH"])
   install_app(ENV["APP_PATH"])
 =end
+
+
 
   feature_name = scenario.feature.title
   if FeatureNameMemory.feature_name != feature_name
