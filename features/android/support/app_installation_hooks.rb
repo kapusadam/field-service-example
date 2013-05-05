@@ -13,7 +13,7 @@ Before do |scenario|
 
 
   unless app_installed?('FieldService.Android')
-    puts "Initial app and test-server install"
+    $stdout.write 'Initial app and test-server install'
     reinstall_apps
   end
 

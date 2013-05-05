@@ -1,7 +1,16 @@
 Given /^I am on the Assignments screen$/ do
+
   user = USERS[:nat]
   to_assignments(:as => user)
+
 end
+
+
+
+
+
+
+
 
 Then /^I should see assignment #(\d+) titled "([^"]*)" as active$/ do |assignment_no, assignment_title|
   assert_assignment({:number => assignment_no, :title => assignment_title, :status => :active})
