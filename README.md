@@ -16,7 +16,7 @@ You must have Xamarin (for iOS and/or Android) and Xamarin Studio installed. In 
 
 From within Xamarin studio: Build the iOS app for iPad simulator in debug mode.
 
-This should create the app as: `FieldService.iOS/bin/iPhoneSimulator/Debug/FieldServiceiOS.app` with is the patch referenced by `APP_BUNDLE_PATH` if you look inside the configuration file: `config/cucumber.yml`.
+This should create the app as: `FieldService.iOS/bin/iPhoneSimulator/Debug/FieldServiceiOS.app` which is the path referenced by `APP_BUNDLE_PATH` if you look inside the configuration file: `config/cucumber.yml`.
 
 
 Run the login spec for iOS:
