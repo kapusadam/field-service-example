@@ -8,9 +8,12 @@ You must have Xamarin (for iOS and/or Android) and Xamarin Studio installed. In 
 
 * Ruby 1.9.3 - We recommend using [rbenv](https://github.com/sstephenson/rbenv/#installation) and [ruby-build](https://github.com/sstephenson/ruby-build) to manage Ruby installations. Then you can just run: `rbenv install 1.9.3-p392` and `rbenv global 1.9.3-p392`
 
-* Calabash iOS: `gem install calabash-cucumber`
+* bundler `gem install bundler`
 
-* Calabash Android : `gem install calabash-android`
+
+If you're using rbenv make sure to run `rbenv rehash` after that to update your rbenv shims.
+
+* Calabash and other dependencies `bundle install` (takes a while first time)
 
 ## Running the login feature on iPad
 
@@ -21,7 +24,7 @@ This should create the app as: `FieldService.iOS/bin/iPhoneSimulator/Debug/Field
 
 Run the login spec for iOS:
 
-    krukow:~/github/field-service-example$ cucumber -p ios features/login.feature
+    bundle exec cucumber -p ios features/login.feature
     Using the ios profile...
     Feature: Login
 
@@ -78,10 +81,10 @@ We've included a script `resign.sh` which can do this:
 
 ### Run the test on Android tablet!
 
-    krukow:~/github/field-service-example$ calabash-android run FieldService.Android/FieldService.Android.apk -p android features/login.feature
+    krukow:~/github/field-service-example$ bundle exec calabash-android run FieldService.Android/FieldService.Android.apk -p android features/login.feature
     Using the android profile...
     Feature: Login
-    
+
       Scenario: Login with valid user              # features/login.feature:3
     Starting: Intent { act=android.intent.action.MAIN cmp=FieldService.Android.test/sh.calaba.instrumentationbackend.WakeUp }
         Given I am on the Login screen             # features/step_definitions/login_steps.rb:2
@@ -97,7 +100,7 @@ We've included a script `resign.sh` which can do this:
           ./features/step_definitions/login_steps.rb:18:in `/^I should not be logged in$/'
           features/login.feature:12:in `Then I should not be logged in'
         And I should see a login error message # features/step_definitions/login_steps.rb:21
-    
+
     Failing Scenarios:
     cucumber -p android features/login.feature:9 # Scenario: Login with invalid user
 
