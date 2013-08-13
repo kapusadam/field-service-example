@@ -9,7 +9,11 @@ class AssignmentsScreen < Calabash::IBase
   def await(wait_opts={})
     super(wait_opts)
     wait_for_none_animating
-    wait_for_elements_exist(["button marked:'record'"])
+    wait_for(timeout: 10) do
+      element_exists("button marked:'record'") ||
+        element_exists("button marked:'record active'")
+    end
+    wait_for_elements_exist([])
     self
   end
 

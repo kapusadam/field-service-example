@@ -14,7 +14,7 @@
 		<string>Resources/58.png</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>6.0</string>
+	<string>5.0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>

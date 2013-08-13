@@ -29,6 +29,7 @@ describe 'Field Service Android Example' do
 
     before do
 
+      ENV['ANDROID_HOME'] = "/Users/krukow/android/adt/sdk"
       @app_path = app_path = 'FieldService.Android/FieldService.Android.apk'
       build_test_server_if_needed(app_path)
       test_server_path = test_server_path(app_path)
@@ -39,7 +40,7 @@ describe 'Field Service Android Example' do
       ENV['TEST_SERVER_PORT']= test_server_port
       ENV['SCREENSHOT_VIA_USB']='true'
       serial = ENV["ADB_DEVICE_ARG"] #nil is default serial
-      @default_device = Calabash::Android::Operations::Device.new(self, serial, test_server_port, app_path, test_server_path)
+      @default_device = Calabash::Android::Operations::Device.new(self, 'emulator-5554', test_server_port, app_path, test_server_path)
 
 
       unless app_installed?('FieldService.Android')
