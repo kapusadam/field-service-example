@@ -13,13 +13,13 @@ module EntryPoints
 
   def assert_not_on_screen(screen)
     if @screen.is_a?(screen)
-        raise "Expected to not be on #{screen.class}"
+      screenshot_embed label: "Expected to not be on #{screen.class}"
     end
   end
 
   def assert_screen(screen)
     unless @screen.is_a?(screen)
-      raise "Expected #{screen} screen but was #{@screen.class}"
+      screenshot_embed label: "Expected #{screen} screen but was #{@screen.class}"
     end
   end
 
