@@ -5,7 +5,7 @@ GEM
     awesome_print (1.1.0)
     blankslate (2.1.2.4)
     builder (3.2.2)
-    calabash-android (0.4.8)
+    calabash-android (0.4.9.pre4)
       awesome_print
       cucumber
       httpclient (~> 2.3.2)
@@ -88,7 +88,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  calabash-android (= 0.4.8)
+  calabash-android (= 0.4.9.pre4)
   calabash-cucumber (= 0.9.151)
   pry
   rspec

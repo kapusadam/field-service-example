@@ -9,7 +9,7 @@
     <orderEntry type="library" scope="PROVIDED" name="blankslate (v2.1.2.4, rbenv: 2.0.0-p195) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, rbenv: 2.0.0-p195) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.5, rbenv: 2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="calabash-android (v0.4.8, rbenv: 2.0.0-p195) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="calabash-android (v0.4.9.pre4, rbenv: 2.0.0-p195) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="calabash-common (v0.0.1, rbenv: 2.0.0-p195) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="calabash-cucumber (v0.9.151, rbenv: 2.0.0-p195) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.0.8, rbenv: 2.0.0-p195) [gem]" level="application" />
