@@ -14,7 +14,6 @@ Then /^I should go to the Assignments screen$/ do
   screenshot_embed(:label => 'Assignments')
 end
 
-require 'foobar'
 Then /^I should not be logged in$/ do
   assert_screen(LoginScreen)
 end
