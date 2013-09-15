@@ -32,5 +32,7 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>fieldserviceasdf</string>
 </dict>
 </plist>

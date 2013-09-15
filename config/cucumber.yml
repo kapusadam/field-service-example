@@ -1,7 +1,5 @@
 # config/cucumber.yml
 ##YAML Template
 ---
-android: PLATFORM=android -r features/support -r features/android/support -r features/android/helpers -r features/step_definitions -r features/android/pages/
-
-ios: DEVICE=ipad CALABASH_FULL_CONSOLE_OUTPUT=false APP_BUNDLE_PATH=FieldService.iOS/bin/iPhoneSimulator/Debug/FieldServiceiOS.app NO_STOP=1 OS=ios6 PLATFORM=ios -r features/support -r features/ios/support -r features/ios/helpers -r features/step_definitions -r features/ios/pages
-
+android: PLATFORM=android -r features/support -r features/android/support -r features/android/helpers -r features/step_definitions -r features/android/pages
+ios:     PLATFORM=ios SDK_VERSION=6.0 -r features/support -r features/ios/support     -r features/ios/helpers     -r features/step_definitions -r features/ios/pages

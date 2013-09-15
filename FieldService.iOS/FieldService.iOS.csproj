@@ -25,7 +25,6 @@
     <MtouchLink>None</MtouchLink>
     <MtouchArch>ARMv7</MtouchArch>
     <MtouchI18n />
-    <MtouchExtraArgs>-gcc_flags "-framework CFNetwork -framework CoreGraphics -force_load $(ProjectDir)/calabash.framework/calabash -lstdc++"</MtouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -92,6 +91,9 @@
     </Reference>
     <Reference Include="SignaturePad.iOS">
       <HintPath>..\Components\signature-pad-1.2\lib\ios\SignaturePad.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Calabash">
+      <HintPath>..\Components\calabash-1.2\lib\ios\Calabash.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -515,6 +517,11 @@
   <ItemGroup>
     <XamarinComponentReference Include="signature-pad">
       <InstallationInProgress>False</InstallationInProgress>
+      <Version>1.2</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="calabash">
+      <InstallationInProgress>True</InstallationInProgress>
       <Version>1.2</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>

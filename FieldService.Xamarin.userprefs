@@ -1,10 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPad.6.0" />
   <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="FieldService.iOS/Info.plist" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="FieldService.iOS" expanded="True" selected="True" />
+          <Node name="FieldService.iOS" expanded="True" selected="True">
+            <Node name="ComponentReferenceFolder" expanded="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -22,8 +27,8 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FieldService.Android MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
   <MonoDevelop.Ide.ItemProperties.FieldService.iOS>
     <IPhoneZipBundleSettings CurrentFolder="/Users/krukow/tmp/apps" />
   </MonoDevelop.Ide.ItemProperties.FieldService.iOS>
+  <MonoDevelop.Ide.ItemProperties.FieldService.Android MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
 </Properties>

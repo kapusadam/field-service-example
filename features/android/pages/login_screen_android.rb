@@ -1,20 +1,15 @@
 require 'calabash-android/abase'
 
 class LoginScreen < Calabash::ABase
-
-  def trait
-    "button marked:'Log In'"
-  end
+  include FieldService::AndroidHelpers
 
   def login(user)
-    touch ("EditText id:'userName'")
 
-    keyboard_enter_text user[:email]
+    enter_text(username_field(), user[:email])
 
-    touch ("EditText id:'password'")
-    keyboard_enter_text user[:password]
+    enter_text(password_field(), user[:password])
 
-    touch(trait)
+    touch(login_button)
 
     assignments = page(AssignmentsScreen)
 
@@ -25,5 +20,22 @@ class LoginScreen < Calabash::ABase
     end
 
   end
+
+  def login_button
+    trait
+  end
+
+  def trait
+    "button marked:'Log In'"
+  end
+
+  def username_field
+    "EditText id:'userName'"
+  end
+
+  def password_field
+    "EditText id:'password'"
+  end
+
 
 end

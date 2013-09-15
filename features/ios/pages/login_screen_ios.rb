@@ -1,20 +1,15 @@
 require 'calabash-cucumber/ibase'
 
 class LoginScreen < Calabash::IBase
-
-  def trait
-    "button marked:'Log In'"
-  end
+  include FieldService::IOSHelpers
 
   def login(user)
-    tap "Username"
-    await_keyboard
-    keyboard_enter_text user[:email]
 
-    done
-    keyboard_enter_text user[:password]
+    enter_text(username_field(), user[:email])
 
-    tap('Log In')
+    enter_text(password_field(), user[:password], :wait_for_keyboard => false)
+
+    touch(login_button)
 
     wait_for_elements_do_not_exist(['activityIndicatorView'])
 
@@ -27,5 +22,23 @@ class LoginScreen < Calabash::IBase
     end
 
   end
+
+  def username_field
+    "textField placeholder:'Username'"
+
+  end
+
+  def password_field
+    "textField placeholder:'Password'"
+  end
+
+  def trait
+    "button marked:'Log In'"
+  end
+
+  def login_button
+    trait
+  end
+
 
 end
