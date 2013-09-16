@@ -521,7 +521,7 @@
       <Visible>False</Visible>
     </XamarinComponentReference>
     <XamarinComponentReference Include="calabash">
-      <InstallationInProgress>True</InstallationInProgress>
+      <InstallationInProgress>False</InstallationInProgress>
       <Version>1.2</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>

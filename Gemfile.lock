@@ -2,14 +2,17 @@ GEM
   remote: https://rubygems.org/
   specs:
     CFPropertyList (2.2.1)
+    Platform (0.4.0)
     awesome_print (1.1.0)
     blankslate (2.1.2.4)
     builder (3.2.2)
-    calabash-android (0.4.9)
+    calabash-android (0.4.10.pre3)
       awesome_print
       cucumber
+      escape (~> 0.0.4)
       httpclient (~> 2.3.2)
       json
+      popen4 (~> 0.1.2)
       retriable
       rubyzip (~> 0.9.9)
       slowhandcuke
@@ -39,6 +42,7 @@ GEM
     diff-lcs (1.2.4)
     edn (1.0.2)
       parslet (~> 1.4.0)
+    escape (0.0.4)
     geocoder (1.1.8)
     gherkin (2.12.1)
       multi_json (~> 1.3)
@@ -52,8 +56,12 @@ GEM
     mime-types (1.25)
     multi_json (1.8.0)
     multi_test (0.0.2)
+    open4 (1.3.0)
     parslet (1.4.0)
       blankslate (~> 2.0)
+    popen4 (0.1.2)
+      Platform (>= 0.4.0)
+      open4 (>= 0.4.0)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -99,7 +107,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  calabash-android (= 0.4.9)
+  calabash-android (= 0.4.10.pre3)
   calabash-cucumber (= 0.9.157)
+  geocoder
   pry
   rspec

@@ -55,7 +55,7 @@ Global
 		{F7D8232D-888B-4D40-84F2-EABD83E4D2B1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = FieldService.iOS\FieldService.iOS.csproj
+		StartupItem = FieldService.Android\FieldService.Android.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.inheritsSet = Mono

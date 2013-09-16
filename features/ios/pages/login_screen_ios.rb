@@ -11,7 +11,7 @@ class LoginScreen < Calabash::IBase
 
     touch(login_button)
 
-    wait_for_elements_do_not_exist(['activityIndicatorView'])
+    wait_for_elements_do_not_exist(['activityIndicatorView'], :timeout => 30)
 
     assignments = page(AssignmentsScreen)
 
