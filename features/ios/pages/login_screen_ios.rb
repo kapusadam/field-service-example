@@ -25,7 +25,6 @@ class LoginScreen < Calabash::IBase
 
   def username_field
     "textField placeholder:'Username'"
-
   end
 
   def password_field
