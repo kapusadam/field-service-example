@@ -6,9 +6,7 @@ class LoginScreen < Calabash::IBase
   def login(user)
 
     enter_text(username_field(), user[:email])
-
     enter_text(password_field(), user[:password], :wait_for_keyboard => false)
-
     touch(login_button)
 
     wait_for_elements_do_not_exist(['activityIndicatorView'], :timeout => 30)

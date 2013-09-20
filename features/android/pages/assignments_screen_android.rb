@@ -17,7 +17,9 @@ class AssignmentsScreen < Calabash::ABase
   end
 
   def tap_record_for_assignment(assignment)
+
     touch("#{assignment_query(assignment)} sibling * descendant ToggleButton id:'assignmentTimer'")
+
   end
 
   def assignment_query(assignment)

@@ -5,6 +5,9 @@ Given /^I am on the Assignments screen$/ do
 
 end
 
+
+
+
 When(/^I start recording on \#(\d+)$/) do |assignment|
 
   tap_record_for_assignment(:number => assignment)
@@ -12,6 +15,9 @@ When(/^I start recording on \#(\d+)$/) do |assignment|
   screenshot_embed(:label => 'Recording')
 
 end
+
+
+
 
 Then /^the timer should start ticking$/ do
   check_timer_starts_ticking

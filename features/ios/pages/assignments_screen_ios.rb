@@ -26,7 +26,9 @@ class AssignmentsScreen < Calabash::IBase
   end
 
   def tap_record_for_assignment(assignment)
+
     touch("#{assignment_query(assignment)} sibling button marked:'record'")
+
   end
 
   def assignment_query(assignment)

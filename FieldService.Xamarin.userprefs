@@ -1,19 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPad.6.0" />
   <MonoDevelop.Ide.Workbench ActiveDocument="FieldService.Android/Properties/AndroidManifest.xml">
     <Files>
-      <File FileName="FieldService.Android/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="FieldService.Android/Properties/AndroidManifest.xml" Line="11" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="FieldService.Android" expanded="True">
-            <Node name="Properties" expanded="True">
-              <Node name="AndroidManifest.xml" selected="True" />
-            </Node>
-            <Node name="Utilities" expanded="True" />
+          <Node name="FieldService.iOS" expanded="True">
+            <Node name="ComponentReferenceFolder" selected="True" />
           </Node>
-          <Node name="FieldService.iOS" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -31,8 +27,8 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FieldService.Android MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Release="QTCYFV70G30802CF8" />
   <MonoDevelop.Ide.ItemProperties.FieldService.iOS>
     <IPhoneZipBundleSettings CurrentFolder="/Users/krukow/tmp/apps" />
   </MonoDevelop.Ide.ItemProperties.FieldService.iOS>
-  <MonoDevelop.Ide.ItemProperties.FieldService.Android MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="QTCYFV70G30802CF8" AndroidDeviceId-Release="QTCYFV70G30802CF8" />
 </Properties>
